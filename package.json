@@ -1,0 +1,19 @@
+{
+  "name": "theme-noe-dark",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "0.1.0",
+  "publisher": "vscode",
+  "engines": {
+    "vscode": "*"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Noe Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/noe-dark-theme.json"
+      }
+    ]
+  }
+}
