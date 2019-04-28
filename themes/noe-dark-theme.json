@@ -65,23 +65,6 @@
       }
     },
     {
-      "name": "c++ block",
-      "scope": [
-        "punctuation.section.block.begin.bracket.curly.cpp",
-        "punctuation.section.block.end.bracket.curly.cpp",
-        "punctuation.terminator.statement.c",
-        "punctuation.section.block.begin.bracket.curly.c",
-        "punctuation.section.block.end.bracket.curly.c",
-        "punctuation.section.parens.begin.bracket.round.c",
-        "punctuation.section.parens.end.bracket.round.c",
-        "punctuation.section.parameters.begin.bracket.round.c",
-        "punctuation.section.parameters.end.bracket.round.c"
-      ],
-      "settings": {
-        "foreground": "#abb2bfff"
-      }
-    },
-    {
       "name": "variable.other.constant.js",
       "scope": "variable.other.constant.js",
       "settings": {
@@ -89,20 +72,10 @@
       }
     },
     {
-      "name": "css color standard name",
-      "scope": [
-        "support.constant.color.w3c-standard-color-name.css",
-        "support.constant.color.w3c-standard-color-name.scss"
-      ],
-      "settings": {
-        "foreground": "#E5BF77"
-      }
-    },
-    {
       "name": "css attribute-name.id",
       "scope": [
-        "support.constant.color.w3c-standard-color-name.css",
-        "entity.other.attribute-name.class.css"
+        "support.constant.color.w3c-standard-color-name",
+        "entity.other.attribute-name.class"
       ],
       "settings": {
         "foreground": "#DB8E4B"
@@ -110,22 +83,11 @@
     },
     {
       "name": "css property-name",
-      "scope": "support.type.vendored.property-name.css",
+      "scope": "support.type.vendored.property-name",
       "settings": {
         "foreground": "#56b6c2ff"
       }
     },
-    {
-      "name": "js template-expression",
-      "scope": [
-        "punctuation.definition.template-expression.begin.js",
-        "punctuation.definition.template-expression.end.js"
-      ],
-      "settings": {
-        "foreground": "#D4616A"
-      }
-    },
-
     {
       "name": "js module",
       "scope": [
@@ -140,17 +102,24 @@
     {
       "name": "js variable readwrite",
       "scope": [
-        "variable.other.readwrite.js",
-        "support.variable.property.js",
-        "support.variable.object.process.js"
+        "variable.other.readwrite",
+        "support.variable.property",
+        "support.variable.object.process"
       ],
       "settings": {
         "foreground": "#00B59E"
       }
     },
     {
-      "name": "js object literal key",
-      "scope": "meta.object-literal.key.js",
+      "name": "Object literal key",
+      "scope": "meta.object-literal.key",
+      "settings": {
+        "foreground": "#949AA6"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": ["meta.brace", "punctuation", "meta.objectliteral"],
       "settings": {
         "foreground": "#949AA6"
       }
@@ -163,32 +132,12 @@
         "foreground": "#d19a66ff"
       }
     },
-    {
-      "name": "Punctuation Definition Comment",
-      "scope": "punctuation.definition.comment",
-      "settings": {
-        "foreground": "#5C6370"
-      }
-    },
+
     {
       "name": "Delimiters",
       "scope": "none",
       "settings": {
         "foreground": "#5E6169"
-      }
-    },
-    {
-      "name": "Punctuation",
-      "scope": [
-        "punctuation.definition.string",
-        "punctuation.definition.variable",
-        "punctuation.definition.string",
-        "punctuation.definition.parameters",
-        "punctuation.definition.string",
-        "punctuation.definition.array"
-      ],
-      "settings": {
-        "foreground": "#949AA6"
       }
     },
     {
@@ -243,14 +192,6 @@
       ],
       "settings": {
         "foreground": "#1995FA"
-      }
-    },
-    {
-      "name": "Prop type declarations",
-      "comment": "e.g. null, string, boolean",
-      "scope": ["meta.type.annotation"],
-      "settings": {
-        "foreground": "#949AA6"
       }
     },
 
@@ -334,9 +275,13 @@
     },
     {
       "name": "Support type",
-      "scope": "support.constant.property-value",
+      "scope": [
+        "support.constant.property-value",
+        "support.constant.color.w3c-extended-color-name",
+        "support.type.primitive"
+      ],
       "settings": {
-        "foreground": "#949AA6"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -360,26 +305,15 @@
         "foreground": "#E5BF77"
       }
     },
-    {
-      "name": "JSX Braces",
-      "comment": "For braces inside JSX components",
-      "scope": [
-        "punctuation.definition.template-expression.begin.tsx",
-        "punctuation.definition.template-expression.end.tsx"
-      ],
-      "settings": {
-        "foreground": "#D4616A"
-      }
-    },
-    {
-      "name": "JSX Punctuation",
-      "comment": "For braces inside JSX components",
-      "scope": ["punctuation.section.embedded", "variable.interpolation"],
-      "settings": {
-        "foreground": "#949AA6"
-      }
-    },
 
+    {
+      "name": "SCSS CSS properties",
+      "comment": "For scss properties e.g. 0%",
+      "scope": ["meta.var.expr"],
+      "settings": {
+        "foreground": "#E5BF77"
+      }
+    },
     {
       "name": "Constant other symbol",
       "scope": "constant.other.symbol",
@@ -422,6 +356,37 @@
         "foreground": "#d19a66"
       }
     },
+    {
+      "name": "Comments",
+      "scope": "punctuation.definition.comment",
+      "settings": {
+        "foreground": "#5C6370"
+      }
+    },
+
+    {
+      "name": "JSX Braces",
+      "comment": "For braces inside JSX components",
+      "scope": [
+        "punctuation.definition.template-expression.begin.tsx",
+        "punctuation.definition.template-expression.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#D4616A"
+      }
+    },
+
+    {
+      "name": "js template-expression",
+      "scope": [
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.end.js"
+      ],
+      "settings": {
+        "foreground": "#D4616A"
+      }
+    },
+
     {
       "name": "Tags",
       "scope": "entity.name.tag",
@@ -511,11 +476,11 @@
       }
     },
     {
-      "name": "Type names and libraries",
-      "comment": "For lists of types and names of imported libraries",
-      "scope": "string.quoted.double.tsx",
+      "name": "TSX imports",
+      "comment": "For tsx classes and imported libraries",
+      "scope": ["string.quoted.single", "string.quoted.double"],
       "settings": {
-        "foreground": "#00B59E"
+        "foreground": "#E5BF77"
       }
     },
 
@@ -559,9 +524,8 @@
       "name": "js ts this",
       "scope": ["var.this.js", "var.this.ts", "variable.language.this.js"],
       "settings": {
-        "foreground": "#E5BF77ff"
+        "foreground": "#E5BF77"
       }
     }
-  ],
-  "uuid": "714fdbf7-9fca-491d-ad05-290f426a4780"
+  ]
 }
