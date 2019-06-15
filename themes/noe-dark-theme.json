@@ -75,6 +75,7 @@
       "name": "css attribute-name.id",
       "scope": [
         "support.constant.color.w3c-standard-color-name",
+        "support.constant.font-name",
         "entity.other.attribute-name.class"
       ],
       "settings": {
@@ -142,7 +143,7 @@
     },
     {
       "name": "Keywords",
-      "scope": "keyword",
+      "scope": ["keyword"],
       "settings": {
         "foreground": "#D4616A"
       }
@@ -196,22 +197,8 @@
     },
 
     {
-      "name": "Classes",
-      "scope": "entity.name.type.namespace",
-      "settings": {
-        "foreground": "#E5BF77"
-      }
-    },
-    {
-      "name": "Classes",
-      "scope": ["support.class", "entity.name.type.class"],
-      "settings": {
-        "foreground": "#E5BF77"
-      }
-    },
-    {
-      "name": "Class name",
-      "scope": "entity.name.class.identifier.namespace.type",
+      "name": "Classes, namespaces",
+      "scope": ["entity.name.type.namespace", "entity.name.class.identifier.namespace.type", "support.class", "entity.name.type.class", "support.other.namespace"],
       "settings": {
         "foreground": "#E5BF77"
       }
@@ -239,7 +226,7 @@
     },
     {
       "name": "Control Elements",
-      "scope": ["control.elements", "keyword.operator.less"],
+      "scope": ["control.elements"],
       "settings": {
         "foreground": "#d19a66"
       }
@@ -262,7 +249,7 @@
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#3BAED1"
       }
     },
     {
@@ -282,13 +269,6 @@
       ],
       "settings": {
         "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "Support type",
-      "scope": "support.constant.font-name",
-      "settings": {
-        "foreground": "#d19a66"
       }
     },
     {
@@ -503,7 +483,7 @@
       "name": "rgb-value",
       "scope": "rgb-value",
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#3BAED1"
       }
     },
     {
