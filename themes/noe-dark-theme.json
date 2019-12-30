@@ -1,16 +1,8 @@
 {
   "author": "devmoran",
-  "name": "Pen dark",
+  "name": "Noe dark",
   "semanticClass": "theme.dark",
   "colorSpaceName": "sRGB",
-  "gutterSettings": {
-    "background": "#222",
-    "divider": "#333",
-    "foreground": "#ddd",
-    "selectionBackground": "#555",
-    "selectionForeground": "#ccc",
-    "activityBarBackground": "#19202b"
-  },
   "settings": [
     {
       "settings": {
@@ -198,7 +190,13 @@
 
     {
       "name": "Classes, namespaces",
-      "scope": ["entity.name.type.namespace", "entity.name.class.identifier.namespace.type", "support.class", "entity.name.type.class", "support.other.namespace"],
+      "scope": [
+        "entity.name.type.namespace",
+        "entity.name.class.identifier.namespace.type",
+        "support.class",
+        "entity.name.type.class",
+        "support.other.namespace"
+      ],
       "settings": {
         "foreground": "#E5BF77"
       }

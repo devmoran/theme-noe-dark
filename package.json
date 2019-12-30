@@ -1,11 +1,15 @@
 {
   "name": "theme-noe-dark",
-  "displayName": "%displayName%",
-  "description": "%description%",
-  "version": "0.1.0",
-  "publisher": "vscode",
+  "displayName": "Noe Dark",
+  "description": "Dark syntax theme based on Flat UI Dark",
+  "version": "1.0.0",
+  "publisher": "devmoran",
   "engines": {
     "vscode": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devmoran/theme-noe-dark.git"
   },
   "contributes": {
     "themes": [
