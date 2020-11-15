@@ -1,3 +1,3 @@
-# theme-noe-dark
+# Noe Dark
 
-Dark theme for vscode, based on [Flat UI Dark](https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI)
+Dark theme for VSCode, based on [Flat UI Dark](https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI)
