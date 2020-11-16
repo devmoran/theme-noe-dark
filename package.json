@@ -2,7 +2,7 @@
   "name": "theme-noe-dark",
   "displayName": "Noe Dark",
   "description": "Dark syntax theme based on Flat UI Dark",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "devmoran",
   "engines": {
     "vscode": "*"
