@@ -4,6 +4,8 @@
   "description": "Dark syntax theme based on Flat UI Dark",
   "version": "2.0.0",
   "publisher": "devmoran",
+  "keywords": ["dark", "neon", "pastel"],
+  "icon": "thumbnailNoe.jpg",
   "engines": {
     "vscode": "*"
   },
