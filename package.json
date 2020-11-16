@@ -1,29 +1,32 @@
 {
-  "name": "theme-noe-dark",
-  "displayName": "Noe Dark",
-  "description": "Dark syntax theme based on Flat UI Dark",
-  "version": "2.0.1",
-  "publisher": "devmoran",
-  "keywords": [
-    "dark",
-    "neon",
-    "pastel"
-  ],
-  "icon": "thumbnailNoe.jpg",
-  "engines": {
-    "vscode": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devmoran/theme-noe-dark.git"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "Noe Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/noe-dark-theme.json"
-      }
-    ]
-  }
+    "name": "theme-noe-dark",
+    "displayName": "Noe Dark",
+    "description": "Dark syntax theme based on Flat UI Dark",
+    "version": "2.0.1",
+    "publisher": "devmoran",
+    "keywords": [
+        "dark",
+        "neon",
+        "pastel"
+    ],
+    "icon": "thumbnailNoe.jpg",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devmoran/theme-noe-dark.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Noe Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/noe-dark-theme.json"
+            }
+        ]
+    }
 }
