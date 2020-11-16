@@ -1,8 +1,10 @@
 # Noe Dark
 
-Dark theme for VSCode, based on [Flat UI Dark](https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI)
+Dark theme for VSCode baby
 
-### Aims
-- Pastel neon syntax
-- Low-contrast punctuation
+- Pastel neon gorgeousness yes
+- Curved luminence to focus on the important stuff
+- Based on [Flat UI Dark](https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI), improves tsx and styled-components support
+- Really fantastic
+
 
